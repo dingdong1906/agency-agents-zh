@@ -19,41 +19,45 @@
 
 ---
 
+## 🚀 Agency Orchestrator — 让角色库真正跑起来
+
+> **💡 一句话，让多个 AI 专家自动协作，几分钟交付完整方案。**
+>
+> 角色库提供专家，[**Agency Orchestrator**](https://github.com/jnMetaCode/agency-orchestrator) 让专家们像真实团队一样协作。
+
+```bash
+npm install -g agency-orchestrator
+ao compose "帮我写一篇关于 AI Agent 的深度分析文章" --run
+```
+
+```
+🎭 自动选角 → 叙事学家 + 心理学家 + 内容创作者 + 叙事设计师
+📊 自动编排 → DAG 工作流，检测依赖，并行执行
+✅ 自动交付 → 几分钟后拿到完整成果
+```
+
+| 能力 | 说明 |
+|:---|:---|
+| 🎯 **零代码编排** | 纯自然语言或 YAML，一句话描述需求即可 |
+| ⚡ **DAG 并行执行** | 自动检测依赖，无依赖步骤并行跑，速度翻倍 |
+| 🔄 **断点续跑** | 失败步骤可单独重跑，不用从头来 |
+| 🆓 **6 种免费 LLM** | Claude Code / Gemini CLI / Copilot / Codex / OpenClaw / Ollama |
+| 💰 **3 种 API 接入** | DeepSeek / Claude API / OpenAI |
+| 📋 **32 个现成模板** | 开发、营销、数据分析、设计、运营，开箱即用 |
+
+<p align="center">
+  <a href="https://github.com/jnMetaCode/agency-orchestrator">
+    <strong>⭐ 查看 Agency Orchestrator — 让 211 个角色为你协作 →</strong>
+  </a>
+</p>
+
+---
+
 ## 这是什么？
 
 一套**开箱即用的 AI 角色库**。每个智能体都有明确的身份定义、关键规则、工作流程和交付物，安装到你的 AI 编程工具后用自然语言激活。
 
 **和普通提示词的区别**：普通提示词告诉 AI "你是一个专家"；这里的智能体定义了专家**怎么思考、怎么做事、交付什么**。例如[安全工程师](engineering/engineering-security-engineer.md)会按 OWASP Top 10 逐项审查代码，[小红书运营专家](marketing/marketing-xiaohongshu-operator.md)会输出完整的种草笔记策略和达人合作方案。
-
-### 🚀 多智能体协作 — Agency Orchestrator
-
-> **一句话，让多个 AI 专家自动协作，几分钟交付完整方案。**
-
-单个角色很强，但真正的威力在于**让多个角色像团队一样协作**。[Agency Orchestrator](https://github.com/jnMetaCode/agency-orchestrator) 是专为本角色库打造的编排引擎——你只需要一句话描述需求，它会自动选角、编排工作流、并行调度：
-
-```bash
-npm install -g agency-orchestrator
-ao compose "帮我写一篇关于 AI Agent 的深度分析文章" --run
-# ✅ 自动选角：叙事学家 + 心理学家 + 内容创作者 + 叙事设计师
-# ✅ 自动生成 DAG 工作流，检测依赖，并行执行
-# ✅ 几分钟后交付完整成果
-```
-
-```
-叙事学家 ──→ 心理学家    ──→ 内容创作者
-          └→ 叙事设计师 ──┘
-           (自动并行)
-```
-
-**核心能力：**
-- 🎯 **零代码** — 纯自然语言或 YAML，不写一行代码
-- ⚡ **DAG 并行** — 自动检测依赖关系，无依赖步骤并行执行
-- 🔄 **断点续跑** — 失败步骤可单独重跑，不用从头来
-- 🆓 **6 种免费 LLM** — Claude Code / Gemini CLI / Copilot / Codex / OpenClaw / Ollama
-- 💰 **3 种 API** — DeepSeek / Claude API / OpenAI
-- 📋 **32 个现成模板** — 开发、营销、数据分析、设计、运营，开箱即用
-
-[⭐ 查看 Agency Orchestrator →](https://github.com/jnMetaCode/agency-orchestrator)
 
 ---
 
